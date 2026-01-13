@@ -408,7 +408,7 @@ Engineering.
 
 ### Thread-Based Engineering
 A mental framework for understanding and improving your ability to work
-with AI coding assistants. Created by Andy Devdan.
+with AI coding assistants. Created by IndyDevDan.
 
 ### Timeout
 A maximum time limit for an operation. If exceeded, the operation is

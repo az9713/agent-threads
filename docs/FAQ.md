@@ -25,7 +25,7 @@ Questions are organized by topic for easy navigation.
 ### What is Thread-Based Engineering?
 
 Thread-Based Engineering is a mental framework for understanding and improving your
-ability to work with AI coding assistants like Claude. It was created by Andy Devdan.
+ability to work with AI coding assistants like Claude. It was created by IndyDevDan.
 
 A "thread" is a unit of engineering work over time:
 - **You** show up at the START (prompt/plan)
