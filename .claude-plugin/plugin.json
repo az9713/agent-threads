@@ -1,0 +1,8 @@
+{
+  "name": "agent-threads",
+  "description": "Thread-Based Engineering examples - demonstrates Base, Parallel, Chained, Fusion, Big, Long, and Zero-Touch thread patterns for agentic coding",
+  "version": "1.0.0",
+  "author": {
+    "name": "Thread Engineering Demo"
+  }
+}

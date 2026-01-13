@@ -1,0 +1,27 @@
+{
+  "description": "Thread-Based Engineering hooks - includes Ralph Wiggum Stop hook for L-Thread pattern",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PROJECT_DIR}/scripts/ralph-loop.sh\"",
+            "timeout": 60
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '[Thread Engineering] File modified - consider running validation'"
+          }
+        ]
+      }
+    ]
+  }
+}

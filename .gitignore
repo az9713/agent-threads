@@ -1,0 +1,14 @@
+# Temporary files
+tmpclaude-*
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Output files from scripts
+parallel-result-*.json
+fusion-*.json
+
+# Node modules (if any)
+node_modules/
